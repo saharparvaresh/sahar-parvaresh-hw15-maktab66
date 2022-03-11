@@ -1,0 +1,96 @@
+
+@font-face {
+  font-family: 'Noto Nastaliq Urdu';
+  src: local('Noto Nastaliq Urdu'),
+    url('./Noto_Nastaliq_Urdu/NotoNastaliqUrdu-Regular.woff2') format('woff2'),
+    url('./Noto_Nastaliq_Urdu/NotoNastaliqUrdu-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+   font-family: "Noto Nastaliq Urdu";
+}
+
+
+body {
+  margin: 0;
+  
+  
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.content {
+  border: 5px #c0c0ff solid;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #babbee;
+  padding: 20px;
+}
+table {
+  width: 100%;
+  background-color: #b5e1e7;
+}
+td:first-child {
+  width: 100%;
+}
+td:last-child {
+  min-width: 125px;
+}
+th {
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #e6d1d1;
+}
+input,
+button {
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px #c0c0c0 solid;
+}
+button {
+  cursor: pointer;
+}
+button.add {
+  background-color: #0080ff;
+  color: #ffffff;
+}
+
+button.edit {
+  background-color: #20a0b0;
+  color: #ffffff;
+}
+
+button.delete {
+  background-color: #e04040;
+  color: #ffffff;
+}
+
+button.save {
+  background-color: #30b040;
+  color: #ffffff;
+}
+
+button.back {
+  background-color: #707080;
+  color: #ffffff;
+}
+
+.task {
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}
